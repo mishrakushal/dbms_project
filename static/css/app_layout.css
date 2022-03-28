@@ -1,0 +1,20 @@
+.fa-house {
+    color: #FFF;
+    font-size: 2em;
+}
+
+.fa-arrow-right-from-bracket {
+    color: #000;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+select {
+    width: 10em;
+}
