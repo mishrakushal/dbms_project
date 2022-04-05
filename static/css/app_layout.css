@@ -1,11 +1,10 @@
 .fa-house {
     color: #FFF;
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 .fa-arrow-right-from-bracket {
     color: #000;
-
 }
 
 .navbar {
@@ -13,8 +12,29 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 2em 0 2em 0;
 }
+
+.search__bar input {
+    padding: 0.7em 1em 0.7em 1.4em;
+    border-radius: 0.5em;
+    width: 17em;
+}
+
+.search__bar input:focus {
+    outline: none;
+}m
 
 select {
     width: 10em;
+}
+
+.dropdown button, .dropdown button:hover, .dropdown button:focus {
+    color: #000;
+    background-color: #FFF;
+    padding: 0.7em;
+}
+
+.dropdown-menu a i {
+    padding-right: 1em;
 }
