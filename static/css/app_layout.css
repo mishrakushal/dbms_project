@@ -3,8 +3,17 @@
     font-size: 2.4em;
 }
 
-.fa-arrow-right-from-bracket {
-    color: #000;
+.home__icon {
+    margin-left: -9em;
+}
+
+.fa-house:hover {
+    color: #3FAABF;
+    transition: 50ms;
+}
+
+.fa-arrow-right-from-bracket, .logout__option {
+    color: #D00000;
 }
 
 .navbar {
@@ -29,12 +38,32 @@ select {
     width: 10em;
 }
 
-.dropdown button, .dropdown button:hover, .dropdown button:focus {
+.dropdown button, .dropdown button:hover {
     color: #000;
     background-color: #FFF;
     padding: 0.7em;
+    width: 7em;
+}
+
+.dropdown button:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
 
 .dropdown-menu a i {
     padding-right: 1em;
+}
+
+.dropdown {
+    margin-right: -9em;
+}
+
+.page__title h1 {
+    padding-left: 3.2em;
+    font-size: 3rem;
+}
+
+.horizontal__line {
+    margin: 1em 7em;
 }
